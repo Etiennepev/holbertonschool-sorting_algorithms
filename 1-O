@@ -1,12 +1,3 @@
 O(n)
-/**
-*Lorsque le tableau est déjà trié
-*/
 O(n^2)
-/**
-Cela se produit généralement pour des arrangements aléatoires d’éléments de tableau
-*/
 O(n^2)
-/**
-Lorsque le tableau est trié dans l’ordre inverse
-*/
