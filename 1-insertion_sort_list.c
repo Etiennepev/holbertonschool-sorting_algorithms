@@ -3,11 +3,10 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * @insertion_sort_list - sort algorithm
- * description: sorts a doubly linked list of integers with sort algorithm
- * @list: pointer to the node
- */
-
+* insertion_sort_list - sort alogorithm
+* description: sorts a doubly linked list of integers with sort algorithm
+* @list: pointer to the node
+*/
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current = (*list)->next;
@@ -16,7 +15,6 @@ void insertion_sort_list(listint_t **list)
 		return;
 	while (current)
 	{
-
 	listint_t *next_node = current->next;
 	listint_t *prev_node = current->prev;
 
@@ -48,9 +46,6 @@ void insertion_sort_list(listint_t **list)
 	*/
 	prev_node = current->prev;
 	}
-	/**
-	 * passe au noeud suivant
-	*/
 	current = next_node;
 	}
 }
